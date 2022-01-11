@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         else { //질문: 해당 curTime이 현재시간을 가져오는것을 알고 있는데 시간이 흐르는 동안 지속적으로 현재 시간을 가져오는것인지? 그리고 해당 curtime은 언제부터 가져오는것인지?(해당 객체를 생성한 후부터인지 아니면 코드가 실행된 시간 부터인지?)
             backBtntim = curTime;
             Toast.makeText(this, "한번 더 누르면 중지됩니다.", Toast.LENGTH_SHORT).show();
-            //추가
+
             //삭제
 
         }
